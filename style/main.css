@@ -175,6 +175,8 @@ hr {
     .game-container .game-message p {
       font-size: 60px;
       font-weight: bold;
+      color: #7dd3fc;
+      background: #000;
       height: 60px;
       line-height: 60px;
       margin-top: 222px; }
@@ -183,7 +185,7 @@ hr {
       margin-top: 59px; }
     .game-container .game-message a {
       display: inline-block;
-      background: #8f7a66;
+      background: #020617;
       border-radius: 3px;
       padding: 0 20px;
       text-decoration: none;
@@ -529,6 +531,7 @@ hr {
   display: block;
   text-align: center;
   float: right; }
+  
 
 .game-explanation {
   margin-top: 50px; }
@@ -609,6 +612,8 @@ hr {
         font-size: 60px;
         font-weight: bold;
         height: 60px;
+                color: #7dd3fc;
+        background: #000;
         line-height: 60px;
         margin-top: 222px; }
       .game-container .game-message .lower {
@@ -616,7 +621,7 @@ hr {
         margin-top: 59px; }
       .game-container .game-message a {
         display: inline-block;
-        background: #8f7a66;
+        background: #020617;
         border-radius: 3px;
         padding: 0 20px;
         text-decoration: none;
@@ -873,6 +878,16 @@ html, body {
   background: rgba(0, 170, 255, 0.15);
 }
 
+.retry-button {
+  background: transparent;
+  color: #7dd3fc;
+  border: 1px solid #38bdf8;
+  box-shadow: 0 0 10px rgba(0, 170, 255, 0.6);
+}
+
+.retry-button:hover {
+  background: rgba(0, 170, 255, 0.15);
+}
 
 /* ================================
    ANIMATED NEON BACKGROUND
