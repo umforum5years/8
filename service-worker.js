@@ -1,4 +1,4 @@
-const CACHE_NAME = "umforum8-v1";
+const CACHE_NAME = "umforum8-v2";
 
 const ASSETS = [
   "./",
@@ -21,10 +21,17 @@ const ASSETS = [
   "./favicon.ico",
 
   // если используешь картинки плиток
+  "./assets/img/2.png",
+  "./assets/img/4.png",
+  "./assets/img/8.png",
+  "./assets/img/16.png",
+  "./assets/img/32.png",
   "./assets/img/64.png",
   "./assets/img/128.png",
   "./assets/img/256.png",
-  "./assets/img/512.png"
+  "./assets/img/512.png",
+  "./assets/img/1024.png",
+  "./assets/img/2048.png"
 ];
 
 // Установка — кэшируем всё
