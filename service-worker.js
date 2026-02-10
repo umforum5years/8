@@ -1,4 +1,4 @@
-const CACHE_NAME = "umforum8-v2";
+const CACHE_NAME = "umforum8-v3";
 
 const ASSETS = [
   "./",
